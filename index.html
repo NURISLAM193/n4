@@ -21,7 +21,7 @@
       }
     }
   </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="./font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="./output.css">
   <script src="./ui.js" defer></script>
 </head>
@@ -293,85 +293,93 @@
     <div class="max-w-7xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-20">
         <div class="lg:col-span-2 space-y-8">
-          <a class="flex items-center gap-1 font-black text-2xl text-gray-900" href="#">
-            <span class="bg-yellow-400 text-gray-950 px-1.5 py-0.5 rounded-sm">K</span>lothink
+          <a class="flex items-center gap-2" href="https://nurislam193.github.io/n1/">
+            <img alt="Klothink Logo" class="h-12 w-auto" src="./images/Group.png"/>
           </a>
           <form class="flex gap-2 max-w-sm w-full">
-            <input class="flex-1 bg-white border border-gray-200 rounded-full px-5 py-3.5 text-sm focus:outline-none focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 placeholder-gray-400" placeholder="Enter Your Email" type="email"/>
-            <button class="px-8 py-3.5 bg-yellow-400 text-gray-950 font-bold rounded-full text-sm hover:bg-yellow-300 transition-colors" type="submit">Subscribe</button>
+            <input class="flex-1 bg-white border border-gray-200 rounded-full px-5 py-3.5 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary placeholder-gray-400" placeholder="Enter Your Email" type="email"/>
+            <button class="px-8 py-3.5 bg-primary text-secondary font-bold rounded-full text-sm hover:bg-yellow-400 transition-colors shadow-sm" type="submit">Subscribe</button>
           </form>
         </div>
-        <div>
-          <h4 class="font-bold text-gray-900 mb-6 text-base">Home</h4>
-          <ul class="space-y-4 text-sm text-gray-500">
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Features</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Popular Products</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Testimonials</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">FAQ</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="font-bold text-gray-900 mb-6 text-base">Menswear</h4>
-          <ul class="space-y-4 text-sm text-gray-500">
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Casual</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Formal</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Party</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Business</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="font-bold text-gray-900 mb-6 text-base">Womenswear</h4>
-          <ul class="space-y-4 text-sm text-gray-500">
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Casual</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Formal</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Party</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Business</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="font-bold text-gray-900 mb-6 text-base">Kidswear</h4>
-          <ul class="space-y-4 text-sm text-gray-500">
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Casual</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Formal</a></li>
-            <li><a class="hover:text-yellow-400 transition-colors" href="#">Party</a></li>
-          </ul>
-        </div>
+        <div><h4 class="font-bold text-headingColor mb-6 text-lg">Home</h4><ul class="space-y-4 text-sm text-textColor"><li>Features</li><li>Popular Products</li><li>Testimonials</li><li>FAQ</li></ul></div>
+        <div><h4 class="font-bold text-headingColor mb-6 text-lg">Menswear</h4><ul class="space-y-4 text-sm text-textColor"><li>Casual</li><li>Formal</li><li>Party</li><li>Business</li></ul></div>
+        <div><h4 class="font-bold text-headingColor mb-6 text-lg">Womenswear</h4><ul class="space-y-4 text-sm text-textColor"><li>Casual</li><li>Formal</li><li>Party</li><li>Business</li></ul></div>
+        <div><h4 class="font-bold text-headingColor mb-6 text-lg">Kidswear</h4><ul class="space-y-4 text-sm text-textColor"><li>Casual</li><li>Formal</li><li>Party</li></ul></div>
       </div>
-
-      <div class="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 border-t border-gray-100 text-xs text-gray-500 font-medium">
-        <div class="flex gap-4 items-center">
-          <a class="hover:text-gray-900 transition-colors" href="#">Terms &amp; Conditions</a>
-          <span class="w-px h-3 bg-gray-300"></span>
-          <a class="hover:text-gray-900 transition-colors" href="#">Privacy Policy</a>
-        </div>
-        <div class="flex gap-4 text-lg">
-          <a class="text-gray-900 hover:text-yellow-400 transition-colors" href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a class="text-gray-900 hover:text-yellow-400 transition-colors" href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a class="text-gray-900 hover:text-yellow-400 transition-colors" href="#"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 border-t border-gray-100 text-[11px] text-gray-500 font-medium">
+        <div class="flex gap-4 items-center"><a href="#">Terms &amp; Conditions</a><span class="w-px h-3 bg-gray-300"></span><a href="#">Privacy Policy</a></div>
+        <div class="flex gap-4 text-lg text-gray-900"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i></div>
         <p>© 2024 Klothink. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
   <script>
+    const faqAnswers = {
+      'Can I modify my order after placing it?': 'Yes. Contact support within one hour after checkout and include your order number.',
+      'How do I initiate a return?': 'Open your order details, choose the item you want to return, and follow the return instructions.',
+      'How can I unsubscribe from the newsletter?': 'Use the unsubscribe link at the bottom of any Klothink email.',
+      'Do you offer exchanges for products?': 'Yes. Exchanges are available within 30 days for unworn items in original condition.',
+      'How can I place an order on Klothink?': 'Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.',
+      'What payment methods do you accept?': 'We accept major cards, PayPal, Apple Pay, and Google Pay.',
+      'How can I track my order?': 'After dispatch, you will receive a tracking link by email. You can also track it from your account orders.',
+      'What is your shipping policy?': 'Standard shipping usually takes 3-5 business days, with express options available at checkout.',
+      'Are there any additional fees for returns?': 'Returns are free within the return window unless the item is outside the policy conditions.',
+      'How do I create an account on Klothink?': 'Select sign up, enter your email and password, then confirm your account from your inbox.',
+      'Can I change my account information?': 'Yes. You can update your name, address, email, and password from account settings.',
+      'Are my personal details secure on Klothink?': 'Yes. Klothink uses secure checkout and protects personal information with standard encryption.'
+    };
+
+    document.querySelectorAll('.faq-item').forEach(prepareFaqCard);
+
+    function prepareFaqCard(el) {
+      if (el.querySelector('.faq-header')) return;
+      const existingHeader = el.querySelector(':scope > div.flex');
+      if (existingHeader) {
+        existingHeader.classList.add('faq-header', 'w-full', 'gap-4');
+        el.style.display = 'flex';
+        el.style.flexDirection = 'column';
+        el.style.alignItems = 'stretch';
+        return;
+      }
+
+      const title = el.querySelector('span');
+      const icon = el.querySelector('.faq-icon');
+      if (!title || !icon) return;
+      const header = document.createElement('div');
+      header.className = 'faq-header flex w-full items-start justify-between gap-4';
+      title.classList.add('pr-4');
+      icon.classList.add('shrink-0', 'mt-0.5');
+      header.append(title, icon);
+      el.prepend(header);
+      el.classList.remove('justify-between', 'items-center');
+      el.style.display = 'flex';
+      el.style.flexDirection = 'column';
+      el.style.alignItems = 'stretch';
+    }
+
     function toggleFaq(el) {
       const isOpen = el.classList.contains('open');
-      // Close all in same column
       const col = el.closest('.space-y-4');
       col.querySelectorAll('.faq-item.open').forEach(item => {
         item.classList.remove('open');
         const icon = item.querySelector('.faq-icon');
         icon.classList.remove('fa-xmark');
         icon.classList.add('fa-plus');
-        item.classList.remove('flex','justify-between','items-center');
+        item.querySelector('.faq-body')?.remove();
       });
       if (!isOpen) {
         el.classList.add('open');
         const icon = el.querySelector('.faq-icon');
         icon.classList.remove('fa-plus');
         icon.classList.add('fa-xmark');
-        el.classList.remove('flex','justify-between','items-center');
+        if (!el.querySelector('.faq-body')) {
+          const body = document.createElement('div');
+          body.className = 'faq-body mt-4 text-sm text-gray-600 leading-relaxed';
+          const title = el.querySelector('span')?.textContent.trim();
+          body.textContent = faqAnswers[title] || 'Please contact our support team for more details.';
+          el.appendChild(body);
+        }
       }
     }
 
